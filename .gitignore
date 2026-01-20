@@ -1,35 +1,39 @@
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
 
-# Ignore IDE / Editor files
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
 *.iml
 *.ipr
-*.iws
-.idea/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
 .vscode/
-*.classpath
-*.project
 
-# Ignore compiled files
-*.class
-*.jar
-*.war
-*.ear
-
-# Ignore build folders
-/bin/
-/build/
-/out/
-/target/
-
-# Ignore log and temp files
-*.log
-*.tmp
-*.bak
-
-# Ignore external libraries
-lib/
-
-# Ignore system-specific files
-*.swp
+### Mac OS ###
+.DS_Store
