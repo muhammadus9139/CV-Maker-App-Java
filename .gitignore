@@ -1,0 +1,35 @@
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE / Editor files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.classpath
+*.project
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore build folders
+/bin/
+/build/
+/out/
+/target/
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore external libraries
+lib/
+
+# Ignore system-specific files
+*.swp
