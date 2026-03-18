@@ -1,6 +1,6 @@
 **CV Maker Application**
 
-A JavaFX-based desktop application for creating professional resumes quickly and efficiently.
+A GUI-based desktop application for creating professional resumes quickly and efficiently.
 The CV Maker allows users to use templates, customize colors, preview changes live, download as PDF, share, and print resumes.
 
 This project demonstrates a full Object-Oriented Programming (OOP) implementation, including user authentication, exception handling, and modular design.
